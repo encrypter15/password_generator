@@ -1,14 +1,23 @@
-# password generator
-Cybersecurity tool for [add description].
+# Password Generator
+
+## Overview
+The Password Generator is a Python tool that creates random passwords using a customizable character set. It leverages the `random` and `string` modules to generate passwords of specified length and quantity.
+
+## Author
+Rick Hayes
+
+## License
+MIT
+
+## Version
+2.73
 
 ## Requirements
 - Python 3.x
-- [add specific dependencies]
+- No additional libraries beyond the Python standard library
 
 ## Usage
-```bash
-python password_generator.py --help
-```
+Run the script with the following arguments:
 
-## Configuration
-Edit `config.ini` for custom settings.
+```bash
+python3 password_generator.py [--length <LENGTH>] [--count <COUNT>] [--config <CONFIG_FILE>]
